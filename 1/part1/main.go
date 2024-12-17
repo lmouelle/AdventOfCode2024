@@ -12,7 +12,7 @@ func main() {
 	// First, radix sort the two arrays for O(n)
 	// Next, walk two pointers slow through the arrays, calculating the difference one-by-one
 	// Sum the deltas as we go
-	file, err := os.Open("input.txt")
+	file, err := os.Open("../input.txt")
 	if err != nil {
 		panic(err)
 	}
